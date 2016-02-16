@@ -44,6 +44,20 @@ The script will output a short configuration block which should be placed manual
     # ipv6 configuration
     iface eth0 inet6 auto
 
+[Comment: One of the compute node I used does not have double wired network card. Instead, it has a wireless and a wired network card. The settings for this node is]
+```
+auto lo
+iface lo inet loopback
+
+auto eth0
+iface eth0 inet static
+  address 10.0.1.101
+  netmask 255.255.255.0
+  gateway 10.0.1.1
+  dns-nameservers 8.8.8.8
+
+```
+
 You will also need to edit your /etc/hosts file to contain an entry for your controller and any compute rigs.  Here's an example:
 
     127.0.0.1   localhost
