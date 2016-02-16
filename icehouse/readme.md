@@ -11,7 +11,6 @@ Assuming a [fresh install of Ubuntu 14.04 LTS Desktop](http://www.ubuntu.com/dow
 
     sudo apt-get install openssh-server
 
-[OK]
 
 Remotely log into your new server and install *git* with *aptitude*:
 
