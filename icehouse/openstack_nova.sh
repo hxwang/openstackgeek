@@ -131,7 +131,9 @@ novncproxy_base_url=http://$managementip:6080/vnc_auto.html
 xvpvncproxy_base_url=http://$managementip:6081/console
 novncproxy_host=$managementip
 novncproxy_port=6080
-vncserver_listen=$managementip
+# vncserver_listen=$managementip
+# changed by lisa to:
+vncserver_listen=0.0.0.0
 vncserver_proxyclient_address=$managementip
 
 # OTHER
