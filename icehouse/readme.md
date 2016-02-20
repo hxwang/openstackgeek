@@ -6,6 +6,8 @@ The video for this guide is [located on Vimeo](https://vimeo.com/97757352).
 
 [![OpenStack Video](https://raw.github.com/StackGeek/openstackgeek/master/icehouse/openstack_icehouse.png)](https://vimeo.com/97757352)
 
+`[Lisa's comment]:` before the installation, you may need to update the system first with command `sudo apt-get install openssh-server`
+
 ### Installation
 Assuming a [fresh install of Ubuntu 14.04 LTS Desktop](http://www.ubuntu.com/download/desktop), you'll need to locally login to each rig and install the *openssh-server* to allow remote *ssh* access:
 
