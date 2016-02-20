@@ -130,7 +130,9 @@ novncproxy_base_url=http://$managementip:6080/vnc_auto.html
 xvpvncproxy_base_url=http://$managementip:6081/console
 novncproxy_host=$computeip
 novncproxy_port=6080
-vncserver_listen=$computeip
+# vncserver_listen=$computeip
+# changed by lisa, otherwise, it will have socket binding error
+vncserver_listen= 0.0.0.0
 vncserver_proxyclient_address=$computeip
 
 # OTHER
