@@ -94,6 +94,17 @@ Moving on, you'll need to update your Ubuntu install next:
     
 The update should come back pretty quick as you've already updated the system. 
 
+- [Comment by Lisa] For one of my compute nodes, I get the following info
+```
+INFO: /dev/kvm does not exist
+HINT:   sudo modprobe kvm_intel
+INFO: Your CPU supports KVM extensions
+INFO: KVM (vmx) is disabled by your BIOS
+HINT: Enter your BIOS setup and enable Virtualization Technology (VT),
+      and then hard poweroff/poweron your system
+KVM acceleration can NOT be used
+```
+
 #### Setup
 *Note: Be sure to take a look at the scripts before you run them.  Keep in mind the setup scripts will periodically prompt you for input, either for confirming installation of a package, or asking you for information for configuration.*
 
